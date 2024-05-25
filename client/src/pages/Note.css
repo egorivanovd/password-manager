@@ -1,0 +1,36 @@
+.note-manager {
+    display: flex;
+    height: 100vh;
+    margin-left: 20%;
+}
+
+.note-manager-content {
+    display: flex;
+    flex: 1;
+    border-left: 1px solid #ccc; /* Левая граница */
+    border-right: 1px solid #ccc; /* Правая граница */
+}
+
+.note-list {
+    flex: 1; /* Меньшая часть */
+    max-width: 30%; /* Ограничиваем максимальную ширину */
+    border-right: 1px solid #ccc; /* Вертикальная линия */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.note-form {
+    flex: 2; /* Большая часть */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.note-form form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.optional-text {
+    font-style: italic;
+    color: lightgray;
+}
