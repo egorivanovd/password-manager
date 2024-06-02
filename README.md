@@ -19,13 +19,28 @@ REACT_APP_API_URL=http://localhost:5000
 Создайте файл `.env` в директории `server` и добавьте следующие переменные окружения:
 
 ```ini
-# Настройки базы данных
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=example_db
 DB_USER=user
 DB_PASSWORD=secret
-
-# Настройки приложения
 SECRET_KEY=your_secret_key
+```
+
+## Установка зависимостей и запуск
+
+### 1. Клиентская часть
+```bash
+cd client
+npm i
+npm start
+cd ..
+```
+
+### 2. Серверная часть
+```bash
+cd server
+npm i
+npm start
+cd ..
 ```
